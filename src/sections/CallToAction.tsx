@@ -1,8 +1,8 @@
 "use client";
 
 import ArrowRight from "@/assets/arrow-right.svg";
-import starImage from "@/assets/star.png";
-import springImage from "@/assets/spring.png";
+import starImage from "@/assets/triangle2.png";
+import springImage from "@/assets/spring2.png";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
@@ -32,7 +32,7 @@ export const CallToAction = () => {
           <motion.img
             src={starImage.src}
             alt="star image"
-            width={360}
+            width={340}
             className="absolute -top-[137px] -left-[350px]"
             style={{
               translateY: translateY,
@@ -40,11 +40,12 @@ export const CallToAction = () => {
           />
           <motion.img
             src={springImage.src}
-            alt="star image"
+            alt="spring image"
             width={360}
-            className="absolute -top-[19px] -right-[331px]"
+            className="absolute 	 -top-[19px] -right-[331px]"
             style={{
               translateY: translateY,
+              rotate: "25deg",
             }}
           />
         </div>

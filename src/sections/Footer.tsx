@@ -1,4 +1,4 @@
-import logo from "@/assets/logosaas.png";
+import logo from "@/assets/logo.png";
 import Image from "next/image";
 import SocialX from "@/assets/social-x.svg";
 import SocialInsta from "@/assets/social-insta.svg";

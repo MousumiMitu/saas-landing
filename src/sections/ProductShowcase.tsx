@@ -2,8 +2,8 @@
 
 import productImage from "@/assets/product-image.png";
 import Image from "next/image";
-import pyramidImage from "@/assets/pyramid.png";
-import tubeImage from "@/assets/tube.png";
+import pyramidImage from "@/assets/7.png";
+import tubeImage from "@/assets/hexagon.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
@@ -19,7 +19,7 @@ export const ProductShowcase = () => {
   return (
     <section
       ref={secRef}
-      className="bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] py-24 overflow-x-clip"
+      className="bg-gradient-to-b from-[#FFFFFF] to-[#f0e1ef] py-24 overflow-x-clip"
     >
       <div className="container">
         <div className="section-heading">
@@ -40,22 +40,22 @@ export const ProductShowcase = () => {
           <motion.img
             src={pyramidImage.src}
             alt="pyramid image"
-            className="hidden md:block absolute -top-32 -right-36"
-            width={262}
-            height={262}
-            style={{
-              translateY: translateY,
-            }}
+            className="hidden md:block absolute -top-24 -right-36"
+            width={220}
+            height={220}
+            // style={{
+            //   translateY: translateY,
+            // }}
           />
           <motion.img
             src={tubeImage.src}
             alt="pyramid image"
             className="hidden md:block absolute -left-36 bottom-24"
-            height={248}
-            width={248}
-            style={{
-              translateY: translateY,
-            }}
+            height={210}
+            width={210}
+            // style={{
+            //   translateY: translateY,
+            // }}
           />
         </div>
       </div>
