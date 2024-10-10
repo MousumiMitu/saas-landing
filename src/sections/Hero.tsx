@@ -46,15 +46,15 @@ export const Hero = () => {
               src={cogImage.src}
               alt="cog image"
               className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0"
-              // animate={{
-              //   translateY: [-30, 30],
-              // }}
-              // transition={{
-              //   repeat: Infinity,
-              //   repeatType: "mirror",
-              //   duration: 3,
-              //   ease: "easeInOut",
-              // }}
+              animate={{
+                translateY: [-30, 30],
+              }}
+              transition={{
+                repeat: Infinity,
+                repeatType: "mirror",
+                duration: 3,
+                ease: "easeInOut",
+              }}
             />
             <motion.img
               src={cylinder.src}
@@ -62,9 +62,9 @@ export const Hero = () => {
               height={190}
               alt="cylinder"
               className="hidden md:block -top-8 -left-32 md:absolute"
-              // style={{
-              //   translateY: translateY,
-              // }}
+              style={{
+                translateY: translateY,
+              }}
             />
             <motion.img
               src={noodleImage.src}
@@ -72,10 +72,10 @@ export const Hero = () => {
               height={170}
               alt="noodle image"
               className="hidden md:block top-[524px] left-[448px]  md:absolute"
-              // style={{
-              //   rotate: 25,
-              //   translateY: translateY,
-              // }}
+              style={{
+                rotate: 25,
+                translateY: translateY,
+              }}
             />
           </div>
         </div>

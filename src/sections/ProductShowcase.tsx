@@ -43,9 +43,9 @@ export const ProductShowcase = () => {
             className="hidden md:block absolute -top-24 -right-36"
             width={220}
             height={220}
-            // style={{
-            //   translateY: translateY,
-            // }}
+            style={{
+              translateY: translateY,
+            }}
           />
           <motion.img
             src={tubeImage.src}
@@ -53,9 +53,9 @@ export const ProductShowcase = () => {
             className="hidden md:block absolute -left-36 bottom-24"
             height={210}
             width={210}
-            // style={{
-            //   translateY: translateY,
-            // }}
+            style={{
+              translateY: translateY,
+            }}
           />
         </div>
       </div>

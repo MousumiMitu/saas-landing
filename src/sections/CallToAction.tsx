@@ -19,7 +19,7 @@ export const CallToAction = () => {
   return (
     <section
       ref={secRef}
-      className="bg-gradient-to-b from-white to-[#D2DCEF] py-24 overflow-x-clip"
+      className="bg-gradient-to-b from-white to-[#f0e1ef] py-24 overflow-x-clip"
     >
       <div className="container">
         <div className="section-heading relative">
@@ -42,7 +42,7 @@ export const CallToAction = () => {
             src={springImage.src}
             alt="spring image"
             width={360}
-            className="absolute 	 -top-[19px] -right-[331px]"
+            className="absolute 	 -top-[19px] -right-[331px] rotate-[25deg]"
             style={{
               translateY: translateY,
               rotate: "25deg",
